@@ -67,4 +67,7 @@ void q_short(int low, int high) {
         //menukar elemen index i dgn index j
         swap(low, j);
     }
+
+    //panggilan rekursif mengurutkan sub array kiri
+    q_short(low, j - 1);  //step 12
 }
