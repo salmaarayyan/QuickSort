@@ -3,7 +3,7 @@ using namespace std;
 
 //array of integers to hold values
 //mendeklarasikan variabel global
-int arrr[20];
+int arr[20];
 int cmp_count = 0; //jumlah komparasi
 int mov_count = 0;  //jumlah gerak data
 int n;
@@ -55,5 +55,7 @@ void q_short(int low, int high) {
             i++;  //step 6
             cmp_count++;
         }  
-    }  
+    }   cmp_count++;
+    //cari elemen yang kurang dari atau sama dengan pivot
+
 }
