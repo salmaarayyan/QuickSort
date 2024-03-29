@@ -9,5 +9,7 @@ int mov_count = 0;  //jumlah gerak data
 int n;
 
 void input() {
-    while (true)
+    while (true) {
+        cout << "masukan panjang element array : ";
+    }
 }
