@@ -70,4 +70,7 @@ void q_short(int low, int high) {
 
     //panggilan rekursif mengurutkan sub array kiri
     q_short(low, j - 1);  //step 12
+
+    //panggilan rekursif mengurutkan sub array kanan
+    q_short(j + 1, high);  //step 13
 }
