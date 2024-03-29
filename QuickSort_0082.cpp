@@ -96,5 +96,6 @@ int main() {
         q_short(0, n -1);
         display();
         cout << "\n\ndo u want to continue ? (y/n) : ";
+        cin >> ch;
     }
 }
